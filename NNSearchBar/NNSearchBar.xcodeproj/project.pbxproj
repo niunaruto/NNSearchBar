@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB0A4C21C414B8F0054EA41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4C11C414B8F0054EA41 /* main.m */; };
+		CEB0A4C51C414B8F0054EA41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4C41C414B8F0054EA41 /* AppDelegate.m */; };
+		CEB0A4C81C414B8F0054EA41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4C71C414B8F0054EA41 /* ViewController.m */; };
+		CEB0A4CB1C414B8F0054EA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB0A4C91C414B8F0054EA41 /* Main.storyboard */; };
+		CEB0A4CD1C414B8F0054EA41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB0A4CC1C414B8F0054EA41 /* Assets.xcassets */; };
+		CEB0A4D01C414B8F0054EA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB0A4CE1C414B8F0054EA41 /* LaunchScreen.storyboard */; };
+		CEB0A4DB1C414B8F0054EA41 /* NNSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4DA1C414B8F0054EA41 /* NNSearchBarTests.m */; };
+		CEB0A4E61C414B8F0054EA41 /* NNSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB0A4E51C414B8F0054EA41 /* NNSearchBarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB0A4D71C414B8F0054EA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB0A4B51C414B8F0054EA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB0A4BC1C414B8F0054EA41;
+			remoteInfo = NNSearchBar;
+		};
+		CEB0A4E21C414B8F0054EA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB0A4B51C414B8F0054EA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB0A4BC1C414B8F0054EA41;
+			remoteInfo = NNSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB0A4BD1C414B8F0054EA41 /* NNSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0A4C11C414B8F0054EA41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEB0A4C31C414B8F0054EA41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEB0A4C41C414B8F0054EA41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEB0A4C61C414B8F0054EA41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CEB0A4C71C414B8F0054EA41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEB0A4CA1C414B8F0054EA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB0A4CC1C414B8F0054EA41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB0A4CF1C414B8F0054EA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB0A4D11C414B8F0054EA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB0A4D61C414B8F0054EA41 /* NNSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0A4DA1C414B8F0054EA41 /* NNSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNSearchBarTests.m; sourceTree = "<group>"; };
+		CEB0A4DC1C414B8F0054EA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB0A4E11C414B8F0054EA41 /* NNSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB0A4E51C414B8F0054EA41 /* NNSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNSearchBarUITests.m; sourceTree = "<group>"; };
+		CEB0A4E71C414B8F0054EA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB0A4BA1C414B8F0054EA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4D31C414B8F0054EA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4DE1C414B8F0054EA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB0A4B41C414B8F0054EA41 = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4BF1C414B8F0054EA41 /* NNSearchBar */,
+				CEB0A4D91C414B8F0054EA41 /* NNSearchBarTests */,
+				CEB0A4E41C414B8F0054EA41 /* NNSearchBarUITests */,
+				CEB0A4BE1C414B8F0054EA41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB0A4BE1C414B8F0054EA41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4BD1C414B8F0054EA41 /* NNSearchBar.app */,
+				CEB0A4D61C414B8F0054EA41 /* NNSearchBarTests.xctest */,
+				CEB0A4E11C414B8F0054EA41 /* NNSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB0A4BF1C414B8F0054EA41 /* NNSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4C31C414B8F0054EA41 /* AppDelegate.h */,
+				CEB0A4C41C414B8F0054EA41 /* AppDelegate.m */,
+				CEB0A4C61C414B8F0054EA41 /* ViewController.h */,
+				CEB0A4C71C414B8F0054EA41 /* ViewController.m */,
+				CEB0A4C91C414B8F0054EA41 /* Main.storyboard */,
+				CEB0A4CC1C414B8F0054EA41 /* Assets.xcassets */,
+				CEB0A4CE1C414B8F0054EA41 /* LaunchScreen.storyboard */,
+				CEB0A4D11C414B8F0054EA41 /* Info.plist */,
+				CEB0A4C01C414B8F0054EA41 /* Supporting Files */,
+			);
+			path = NNSearchBar;
+			sourceTree = "<group>";
+		};
+		CEB0A4C01C414B8F0054EA41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4C11C414B8F0054EA41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEB0A4D91C414B8F0054EA41 /* NNSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4DA1C414B8F0054EA41 /* NNSearchBarTests.m */,
+				CEB0A4DC1C414B8F0054EA41 /* Info.plist */,
+			);
+			path = NNSearchBarTests;
+			sourceTree = "<group>";
+		};
+		CEB0A4E41C414B8F0054EA41 /* NNSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB0A4E51C414B8F0054EA41 /* NNSearchBarUITests.m */,
+				CEB0A4E71C414B8F0054EA41 /* Info.plist */,
+			);
+			path = NNSearchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB0A4BC1C414B8F0054EA41 /* NNSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0A4EA1C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBar" */;
+			buildPhases = (
+				CEB0A4B91C414B8F0054EA41 /* Sources */,
+				CEB0A4BA1C414B8F0054EA41 /* Frameworks */,
+				CEB0A4BB1C414B8F0054EA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNSearchBar;
+			productName = NNSearchBar;
+			productReference = CEB0A4BD1C414B8F0054EA41 /* NNSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB0A4D51C414B8F0054EA41 /* NNSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0A4ED1C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBarTests" */;
+			buildPhases = (
+				CEB0A4D21C414B8F0054EA41 /* Sources */,
+				CEB0A4D31C414B8F0054EA41 /* Frameworks */,
+				CEB0A4D41C414B8F0054EA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB0A4D81C414B8F0054EA41 /* PBXTargetDependency */,
+			);
+			name = NNSearchBarTests;
+			productName = NNSearchBarTests;
+			productReference = CEB0A4D61C414B8F0054EA41 /* NNSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB0A4E01C414B8F0054EA41 /* NNSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB0A4F01C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBarUITests" */;
+			buildPhases = (
+				CEB0A4DD1C414B8F0054EA41 /* Sources */,
+				CEB0A4DE1C414B8F0054EA41 /* Frameworks */,
+				CEB0A4DF1C414B8F0054EA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB0A4E31C414B8F0054EA41 /* PBXTargetDependency */,
+			);
+			name = NNSearchBarUITests;
+			productName = NNSearchBarUITests;
+			productReference = CEB0A4E11C414B8F0054EA41 /* NNSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB0A4B51C414B8F0054EA41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = niuting;
+				TargetAttributes = {
+					CEB0A4BC1C414B8F0054EA41 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CEB0A4D51C414B8F0054EA41 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEB0A4BC1C414B8F0054EA41;
+					};
+					CEB0A4E01C414B8F0054EA41 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CEB0A4BC1C414B8F0054EA41;
+					};
+				};
+			};
+			buildConfigurationList = CEB0A4B81C414B8F0054EA41 /* Build configuration list for PBXProject "NNSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB0A4B41C414B8F0054EA41;
+			productRefGroup = CEB0A4BE1C414B8F0054EA41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB0A4BC1C414B8F0054EA41 /* NNSearchBar */,
+				CEB0A4D51C414B8F0054EA41 /* NNSearchBarTests */,
+				CEB0A4E01C414B8F0054EA41 /* NNSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB0A4BB1C414B8F0054EA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB0A4D01C414B8F0054EA41 /* LaunchScreen.storyboard in Resources */,
+				CEB0A4CD1C414B8F0054EA41 /* Assets.xcassets in Resources */,
+				CEB0A4CB1C414B8F0054EA41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4D41C414B8F0054EA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4DF1C414B8F0054EA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB0A4B91C414B8F0054EA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB0A4C81C414B8F0054EA41 /* ViewController.m in Sources */,
+				CEB0A4C51C414B8F0054EA41 /* AppDelegate.m in Sources */,
+				CEB0A4C21C414B8F0054EA41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4D21C414B8F0054EA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB0A4DB1C414B8F0054EA41 /* NNSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB0A4DD1C414B8F0054EA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB0A4E61C414B8F0054EA41 /* NNSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB0A4D81C414B8F0054EA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB0A4BC1C414B8F0054EA41 /* NNSearchBar */;
+			targetProxy = CEB0A4D71C414B8F0054EA41 /* PBXContainerItemProxy */;
+		};
+		CEB0A4E31C414B8F0054EA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB0A4BC1C414B8F0054EA41 /* NNSearchBar */;
+			targetProxy = CEB0A4E21C414B8F0054EA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEB0A4C91C414B8F0054EA41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB0A4CA1C414B8F0054EA41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB0A4CE1C414B8F0054EA41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB0A4CF1C414B8F0054EA41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB0A4E81C414B8F0054EA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB0A4E91C414B8F0054EA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB0A4EB1C414B8F0054EA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEB0A4EC1C414B8F0054EA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEB0A4EE1C414B8F0054EA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNSearchBar.app/NNSearchBar";
+			};
+			name = Debug;
+		};
+		CEB0A4EF1C414B8F0054EA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNSearchBar.app/NNSearchBar";
+			};
+			name = Release;
+		};
+		CEB0A4F11C414B8F0054EA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNSearchBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEB0A4F21C414B8F0054EA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NT.NNSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNSearchBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB0A4B81C414B8F0054EA41 /* Build configuration list for PBXProject "NNSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0A4E81C414B8F0054EA41 /* Debug */,
+				CEB0A4E91C414B8F0054EA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB0A4EA1C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0A4EB1C414B8F0054EA41 /* Debug */,
+				CEB0A4EC1C414B8F0054EA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB0A4ED1C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0A4EE1C414B8F0054EA41 /* Debug */,
+				CEB0A4EF1C414B8F0054EA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEB0A4F01C414B8F0054EA41 /* Build configuration list for PBXNativeTarget "NNSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB0A4F11C414B8F0054EA41 /* Debug */,
+				CEB0A4F21C414B8F0054EA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB0A4B51C414B8F0054EA41 /* Project object */;
+}
